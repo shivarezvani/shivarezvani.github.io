@@ -2,21 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shiva Rezvani — Product Design &amp; UX Research</title>
-    <script>
-      try {
-        document.documentElement.dataset.portfolioTheme =
-          localStorage.getItem("shiva-portfolio-theme") === "dark" ? "dark" : "light";
-      } catch (_) {
-        document.documentElement.dataset.portfolioTheme = "light";
-      }
-    </script>
-    <script type="module" crossorigin src="/assets/index-ONCzwzlt.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BFY65kF6.css">
-    <link rel="stylesheet" href="/assets/portfolio-overrides.css">
-    <script type="module" src="/assets/portfolio-overrides.js"></script>
+
+    <!-- The SR mark, in the three forms browsers actually ask for. The SVG is
+         the one modern browsers use and the only one that follows the light /
+         dark scheme; Safari ignores SVG icons entirely, so the PNGs are not
+         optional. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e0e0f" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="Shiva Rezvani — Senior Product Designer. Research-led product design for complex financial products."
+    />
+
+    <title>Shiva Rezvani — Senior Product Designer</title>
+    <script type="module" crossorigin src="/assets/index-CS4HEykQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DYnFVWod.css">
   </head>
   <body>
     <div id="root"></div>
