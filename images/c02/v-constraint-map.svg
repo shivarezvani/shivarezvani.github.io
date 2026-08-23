@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <rect x="230" y="150" width="1330" height="170" fill="#F3EFE7"/>
+  <rect x="230" y="320" width="1330" height="170" fill="#EDF0F3"/>
+  <rect x="230" y="490" width="1330" height="170" fill="#E6EBF0"/>
+
+  <line x1="230" y1="150" x2="1560" y2="150" stroke="#D6D2C8"/>
+  <line x1="230" y1="320" x2="1560" y2="320" stroke="#D6D2C8"/>
+  <line x1="230" y1="490" x2="1560" y2="490" stroke="#D6D2C8"/>
+  <line x1="230" y1="660" x2="1560" y2="660" stroke="#D6D2C8"/>
+  <line x1="230" y1="150" x2="230" y2="660" stroke="#D6D2C8"/>
+
+  <text x="60" y="72" font-size="30" font-weight="600" fill="#1C1B18" letter-spacing="-0.4">Three systems, three owners, two independent clocks</text>
+  <text x="60" y="106" font-size="18" fill="#6B675E">The handoff could not be removed, so the design had to make it survivable.</text>
+
+  <text x="60" y="228" font-size="17" font-weight="600" fill="#1C1B18">Azki Sarmayeh</text>
+  <text x="60" y="252" font-size="14" fill="#807B70">Our product</text>
+  <text x="60" y="398" font-size="17" font-weight="600" fill="#1C1B18">Samat</text>
+  <text x="60" y="422" font-size="14" fill="#807B70">National credit registry</text>
+  <text x="60" y="568" font-size="17" font-weight="600" fill="#1C1B18">Blu Bank</text>
+  <text x="60" y="592" font-size="14" fill="#807B70">Partner bank</text>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#9A948A"/></marker>
+    <marker id="aw" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#B4532F"/></marker>
+  </defs>
+
+  <path d="M460,230 L512,230 L512,400 L554,400" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M770,400 L822,400 L822,230 L864,230" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M1080,230 L1104,230 L1104,570 L1114,570" fill="none" stroke="#B4532F" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#aw)"/>
+  <path d="M1315,570 L1344,570" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="260" y="190" width="200" height="80" rx="3" fill="#FFF" stroke="#C9C3B6"/>
+  <text x="280" y="218" font-size="13" font-weight="600" fill="#8A8478" letter-spacing="1.2">01</text>
+  <text x="280" y="246" font-size="17" fill="#1C1B18">Enter loan amount</text>
+
+  <rect x="560" y="360" width="210" height="80" rx="3" fill="#FFF" stroke="#B9C2CC"/>
+  <text x="580" y="388" font-size="13" font-weight="600" fill="#8A8478" letter-spacing="1.2">02</text>
+  <text x="580" y="416" font-size="17" fill="#1C1B18">Eligibility check</text>
+
+  <rect x="870" y="190" width="210" height="80" rx="3" fill="#FFF" stroke="#C9C3B6"/>
+  <text x="890" y="218" font-size="13" font-weight="600" fill="#8A8478" letter-spacing="1.2">03</text>
+  <text x="890" y="246" font-size="17" fill="#1C1B18">Service fee payment</text>
+
+  <rect x="1120" y="530" width="195" height="80" rx="3" fill="#FFF" stroke="#B9C2CC"/>
+  <text x="1140" y="558" font-size="13" font-weight="600" fill="#8A8478" letter-spacing="1.2">04</text>
+  <text x="1140" y="586" font-size="17" fill="#1C1B18">Contract signing</text>
+
+  <rect x="1350" y="530" width="195" height="80" rx="3" fill="#FFF" stroke="#B9C2CC"/>
+  <text x="1370" y="558" font-size="13" font-weight="600" fill="#8A8478" letter-spacing="1.2">05</text>
+  <text x="1370" y="586" font-size="17" fill="#1C1B18">Disbursement</text>
+
+  <rect x="1180" y="352" width="370" height="106" rx="3" fill="#FAF0EA" stroke="#B4532F" stroke-width="1.5"/>
+  <text x="1202" y="382" font-size="13" font-weight="600" fill="#B4532F" letter-spacing="1.2">NO DEEP LINK</text>
+  <text x="1202" y="410" font-size="15" fill="#3D3A34">The link we had opened Blu's login</text>
+  <text x="1202" y="432" font-size="15" fill="#3D3A34">screen, not the contract.</text>
+
+  <path d="M560,690 L560,704 L1000,704 L1000,690" fill="none" stroke="#5E5A52" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="560" y="714" width="128" height="26" rx="13" fill="#1C1B18"/>
+  <circle cx="576" cy="727" r="6" fill="none" stroke="#FBFBF9" stroke-width="1.4"/>
+  <path d="M576,724 L576,727 L578,729" fill="none" stroke="#FBFBF9" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="590" y="732" font-size="13" font-weight="600" fill="#FBFBF9">24h expiry</text>
+  <text x="700" y="732" font-size="15" fill="#3D3A34">Samat result expires</text>
+
+  <path d="M1120,772 L1120,786 L1545,786 L1545,772" fill="none" stroke="#5E5A52" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="1120" y="796" width="128" height="26" rx="13" fill="#1C1B18"/>
+  <circle cx="1136" cy="809" r="6" fill="none" stroke="#FBFBF9" stroke-width="1.4"/>
+  <path d="M1136,806 L1136,809 L1138,811" fill="none" stroke="#FBFBF9" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="1150" y="814" font-size="13" font-weight="600" fill="#FBFBF9">24h expiry</text>
+  <text x="1260" y="814" font-size="15" fill="#3D3A34">Blu contract expires</text>
+
+  <text x="60" y="732" font-size="15" fill="#807B70">The two clocks start at</text>
+  <text x="60" y="754" font-size="15" fill="#807B70">different moments and</text>
+  <text x="60" y="776" font-size="15" fill="#807B70">never line up. A user could</text>
+  <text x="60" y="798" font-size="15" fill="#807B70">clear one, pay, leave, and</text>
+  <text x="60" y="820" font-size="15" fill="#807B70">return to find the other</text>
+  <text x="60" y="842" font-size="15" fill="#807B70">had run out.</text>
+</svg>

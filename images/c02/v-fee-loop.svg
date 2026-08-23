@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="1400" height="900" fill="#ffffff"/>
+
+  <defs>
+    <marker id="g" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#9A948A"/>
+    </marker>
+    <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B4532F"/>
+    </marker>
+  </defs>
+
+  <text x="60" y="72" font-size="30" font-weight="600" fill="#1C1B18" letter-spacing="-0.4">The loop at the service fee</text>
+  <text x="60" y="106" font-size="18" fill="#6B675E">Users were not confused by the fee. They understood it well enough to design around it.</text>
+
+  <!-- circle guide -->
+  <circle cx="700" cy="400" r="215" fill="none" stroke="#E2DED4" stroke-width="1" stroke-dasharray="3 6"/>
+
+  <!-- arrows around the loop -->
+  <path d="M842,268 A215,215 0 0 1 878,372" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#g)"/>
+  <path d="M862,486 A215,215 0 0 1 772,588" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#g)"/>
+  <path d="M604,600 A215,215 0 0 1 518,494" fill="none" stroke="#9A948A" stroke-width="2" marker-end="url(#g)"/>
+  <path d="M516,318 A215,215 0 0 1 566,250" fill="none" stroke="#B4532F" stroke-width="3" marker-end="url(#r)"/>
+
+  <!-- centre -->
+  <text x="700" y="386" font-size="13" fill="#8A8478" text-anchor="middle" letter-spacing="1">OBSERVED IN MICROSOFT CLARITY</text>
+  <text x="700" y="424" font-size="24" font-weight="600" fill="#1C1B18" text-anchor="middle">The same loop,</text>
+  <text x="700" y="456" font-size="24" font-weight="600" fill="#1C1B18" text-anchor="middle">session after session</text>
+
+  <!-- node 1 top -->
+  <rect x="566" y="150" width="268" height="70" rx="3" fill="#FFFFFF" stroke="#C9C3B6"/>
+  <text x="586" y="180" font-size="13" font-weight="600" fill="#8A8478">01</text>
+  <text x="614" y="180" font-size="16" fill="#1C1B18">Choose a loan amount</text>
+  <text x="586" y="204" font-size="14" fill="#807B70">The larger the loan, the larger the fee</text>
+
+  <!-- node 2 right -->
+  <rect x="878" y="330" width="268" height="70" rx="3" fill="#FFFFFF" stroke="#C9C3B6"/>
+  <text x="898" y="360" font-size="13" font-weight="600" fill="#8A8478">02</text>
+  <text x="926" y="360" font-size="16" fill="#1C1B18">Reach the fee invoice</text>
+  <text x="898" y="384" font-size="14" fill="#807B70">First sight of the cash required</text>
+
+  <!-- node 3 lower right -->
+  <rect x="812" y="588" width="200" height="52" rx="3" fill="#FFFFFF" stroke="#C9C3B6"/>
+  <text x="832" y="620" font-size="13" font-weight="600" fill="#8A8478">03</text>
+  <text x="860" y="620" font-size="16" fill="#1C1B18">Go back</text>
+
+  <!-- node 4 lower left -->
+  <rect x="336" y="588" width="268" height="70" rx="3" fill="#FFFFFF" stroke="#C9C3B6"/>
+  <text x="356" y="618" font-size="13" font-weight="600" fill="#8A8478">04</text>
+  <text x="384" y="618" font-size="16" fill="#1C1B18">Reduce the loan amount</text>
+  <text x="356" y="642" font-size="14" fill="#807B70">Not because they wanted less</text>
+
+  <!-- node 5 left -->
+  <rect x="254" y="330" width="268" height="70" rx="3" fill="#FFFFFF" stroke="#C9C3B6"/>
+  <text x="274" y="360" font-size="13" font-weight="600" fill="#8A8478">05</text>
+  <text x="302" y="360" font-size="16" fill="#1C1B18">Continue, smaller fee</text>
+  <text x="274" y="384" font-size="14" fill="#807B70">The loop closes and repeats</text>
+
+  <!-- figures row -->
+  <line x1="60" y1="736" x2="1340" y2="736" stroke="#D6D2C8" stroke-width="1"/>
+
+  <text x="60" y="806" font-size="52" font-weight="600" fill="#1C1B18" letter-spacing="-1">~14%</text>
+  <text x="60" y="838" font-size="15" fill="#6B675E">of the loan, paid in cash before</text>
+  <text x="60" y="860" font-size="15" fill="#6B675E">the money arrived</text>
+
+  <text x="500" y="806" font-size="52" font-weight="600" fill="#1C1B18" letter-spacing="-1">14M</text>
+  <text x="500" y="838" font-size="15" fill="#6B675E">toman upfront at the</text>
+  <text x="500" y="860" font-size="15" fill="#6B675E">100M ceiling</text>
+
+  <text x="940" y="806" font-size="52" font-weight="600" fill="#1C1B18" letter-spacing="-1">40–50M</text>
+  <text x="940" y="838" font-size="15" fill="#6B675E">where most requests</text>
+  <text x="940" y="860" font-size="15" fill="#6B675E">actually sat</text>
+</svg>
