@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- The SR mark, in the three forms browsers actually ask for. The SVG is
+    <!-- The SR mark, in the four forms browsers actually ask for. The SVG is
          the one modern browsers use and the only one that follows the light /
          dark scheme; Safari ignores SVG icons entirely, so the PNGs are not
-         optional. -->
+         optional. Safari also asks for /favicon.ico at the site root before it
+         reads any of these tags, and treats a 404 there as "no icon" — so the
+         .ico is what actually makes the mark appear in a Safari tab. -->
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
@@ -21,8 +24,8 @@
     />
 
     <title>Shiva Rezvani — Senior Product Designer</title>
-    <script type="module" crossorigin src="/assets/index-CL8deKrb.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DYnFVWod.css">
+    <script type="module" crossorigin src="/assets/index-Zuz-1VNK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BHCgw7o4.css">
   </head>
   <body>
     <div id="root"></div>
